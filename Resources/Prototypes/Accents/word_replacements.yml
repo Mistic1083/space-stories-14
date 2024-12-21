@@ -604,6 +604,30 @@
     accent-russian-words-15: accent-russian-words-replace-15
 
 - type: accent
+  id: Cossack
+  wordReplacements:
+    accent-cossack-words-1: accent-cossack-words-replace-1
+    accent-cossack-words-2: accent-cossack-words-replace-2
+    accent-cossack-words-3: accent-cossack-words-replace-3
+    accent-cossack-words-4: accent-cossack-words-replace-4
+    accent-cossack-words-5 : accent-cossack-words-replace-5
+    accent-cossack-words-5.2: accent-cossack-words-replace-5
+    accent-cossack-words-5.3: accent-cossack-words-replace-5
+    accent-cossack-words-6: accent-cossack-words-replace-6
+    accent-cossack-words-6.2: accent-cossack-words-replace-6
+    accent-cossack-words-7 : accent-cossack-words-replace-7
+    accent-cossack-words-8 : accent-cossack-words-replace-8
+    accent-cossack-words-9: accent-cossack-words-replace-9
+    accent-cossack-words-9.2: accent-cossack-words-replace-9
+    accent-cossack-words-10: accent-cossack-words-replace-10
+    accent-cossack-words-11: accent-cossack-words-replace-11
+    accent-cossack-words-11.2: accent-cossack-words-replace-11.2
+    accent-cossack-words-12: accent-cossack-words-replace-12
+    accent-cossack-words-13: accent-cossack-words-replace-13
+
+
+
+- type: accent
   id: skeleton
   wordReplacements:
     accent-skeleton-words-1: accent-skeleton-words-replace-1
