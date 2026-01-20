@@ -1,0 +1,49 @@
+- type: entity
+  id: STFlowerBouquet
+  parent: BaseItem
+  name: Flower bouquet
+  description: A beautiful bouquet of freshly picked flowers.
+  components:
+  - type: Sprite
+    sprite: _Stories/Objects/Fun/bouquet.rsi
+    state: icon
+  - type: Item
+    sprite: _Stories/Objects/Fun/bouquet.rsi
+    size: Small
+  - type: Construction
+    graph: STFlowerBouquetGraph
+    node: bouquet
+
+- type: constructionGraph
+  id: STFlowerBouquetGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: bouquet
+          steps:
+            - tag: Flower
+              name: construction-graph-tag-flower
+              icon:
+                sprite: Objects/Specific/Hydroponics/poppy.rsi
+                state: produce
+            - tag: Flower
+              name: construction-graph-tag-flower
+              icon:
+                sprite: Objects/Specific/Hydroponics/poppy.rsi
+                state: produce
+            - tag: Flower
+              name: construction-graph-tag-flower
+              icon:
+                sprite: Objects/Specific/Hydroponics/poppy.rsi
+                state: produce
+              doAfter: 1
+    - node: bouquet
+      entity: STFlowerBouquet
+
+- type: construction
+  id: STFlowerBouquetCraft
+  graph: STFlowerBouquetGraph
+  startNode: start
+  targetNode: bouquet
+  objectType: Item
