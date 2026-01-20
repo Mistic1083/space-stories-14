@@ -1,7 +1,8 @@
-# Errors
+﻿# Errors
 loadout-group-species-restriction = Этот предмет недоступен для вашего текущего вида.
 # Miscellaneous
 loadout-group-trinkets = Безделушки
+loadout-group-jobtrinkets = Безделушки должности
 loadout-group-glasses = Очки
 loadout-group-backpack = Рюкзак
 loadout-group-instruments = Инструменты
@@ -29,15 +30,16 @@ loadout-group-hop-neck = Глава персонала, шея
 loadout-group-hop-backpack = Глава персонала, рюкзак
 loadout-group-hop-outerclothing = Глава персонала, верхняя одежда
 # Civilian
-loadout-group-passenger-jumpsuit = Ассистент, комбинезон
-loadout-group-passenger-mask = Ассистент, маска
-loadout-group-passenger-gloves = Ассистент, перчатки
-loadout-group-passenger-outerclothing = Ассистент, верхняя одежда
-loadout-group-passenger-shoes = Ассистент, обувь
-loadout-group-passenger-neck = Ассистент, шея
+loadout-group-passenger-jumpsuit = Пассажир, комбинезон
+loadout-group-passenger-mask = Пассажир, маска
+loadout-group-passenger-gloves = Пассажир, перчатки
+loadout-group-passenger-outerclothing = Пассажир, верхняя одежда
+loadout-group-passenger-shoes = Пассажир, обувь
+loadout-group-passenger-neck = Пассажир, шея
 loadout-group-bartender-head = Бармен, голова
 loadout-group-bartender-jumpsuit = Бармен, комбинезон
 loadout-group-bartender-outerclothing = Бармен, верхняя одежда
+loadout-group-bartender-shaker = Бармен, шейкер
 loadout-group-chef-head = Шеф-повар, голова
 loadout-group-chef-mask = Шеф-повар, маска
 loadout-group-chef-jumpsuit = Шеф-повар, комбинезон
@@ -84,6 +86,7 @@ loadout-group-cargo-technician-jumpsuit = Грузчик, комбинезон
 loadout-group-cargo-technician-backpack = Грузчик, рюкзак
 loadout-group-cargo-technician-outerclothing = Грузчик, верхняя одежда
 loadout-group-cargo-technician-shoes = Грузчик, обувь
+loadout-group-cargo-technician-id = Грузчик, ID
 loadout-group-salvage-specialist-backpack = Утилизатор, рюкзак
 loadout-group-salvage-specialist-outerclothing = Утилизатор, верхняя одежда
 loadout-group-salvage-specialist-shoes = Утилизатор, обувь

@@ -82,7 +82,7 @@
     pocket1: MagazineRifle
     pocket2: MagazineRifle
   inhand:
-  - WeaponRifleLecter
+  - WeaponRifleLecterXL8
   storage:
     back:
     - WeaponDisabler
@@ -121,7 +121,6 @@
     components:
     - type: BibleUser #Lets them heal with bibles
     # Stories-Pontific-Start
-    - type: Chaplain
     - type: Holy
     # Stories-Pontific-End
   - !type:AddImplantSpecial

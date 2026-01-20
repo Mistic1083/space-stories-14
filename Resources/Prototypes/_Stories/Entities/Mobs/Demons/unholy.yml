@@ -35,7 +35,7 @@
         damageType: Blunt
         damage: 400
       behaviors:
-      - !type:GibBehavior { }
+      - !type:GibBehavior
     - trigger:
         !type:DamageTypeTrigger
         damageType: Holy
@@ -47,7 +47,7 @@
           Ash:
             min: 1
             max: 1
-      - !type:BurnBodyBehavior { }
+      - !type:BurnBodyBehavior
       - !type:PlaySoundBehavior
         sound:
           collection: MeatLaserImpact
@@ -62,7 +62,7 @@
           Ash:
             min: 1
             max: 1
-      - !type:BurnBodyBehavior { }
+      - !type:BurnBodyBehavior
       - !type:PlaySoundBehavior
         sound:
           collection: MeatLaserImpact
@@ -106,7 +106,8 @@
       0: Alive
       75: Dead
   - type: Stamina
-    critThreshold: 50
+    animationThreshold: 50
+    critThreshold: 75
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
