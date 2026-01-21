@@ -1,6 +1,6 @@
 - type: entity
   id: STFlowerBouquet
-  parent: BaseItem
+  parent: [BaseItem, BaseStorageItem]
   name: Flower bouquet
   description: A beautiful bouquet of freshly picked flowers.
   components:
@@ -9,8 +9,12 @@
     state: icon
   - type: Item
     sprite: _Stories/Objects/Fun/bouquet.rsi
-    size: Small
+    size: Normal
   - type: Construction
     graph: STFlowerBouquetGraph
     node: bouquet
+  - type: Storage
+    grid:
+    - 0,0,1,1
+    maxItemSize: Normal
 
