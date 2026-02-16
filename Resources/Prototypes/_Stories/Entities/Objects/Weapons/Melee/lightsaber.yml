@@ -1,9 +1,9 @@
 - type: entity
-  name: световой меч
+  name: lightsaber
   parent: EnergySword
   abstract: true
   id: BaseLightsaber
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
+  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EmitSoundOnThrow
     sound:
@@ -78,10 +78,9 @@
       - ForceUser # Чувствительные к силе отражают это, так как иначе бы это было имбой против них.
 
 - type: entity
-  name: световая рапира
+  name: rapier lightsaber
   parent: BaseLightsaber
   id: LightsaberRapier
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: EnergySword
     colorOptions:
@@ -101,16 +100,9 @@
 # Random color
 
 - type: entity
-  name: световой меч
-  parent: BaseLightsaber
-  id: Lightsaber
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
-
-- type: entity
-  name: короткий световой меч
+  name: short lightsaber
   parent: BaseLightsaber
   id: LightsaberShort
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: Item
     size: Small
@@ -126,10 +118,9 @@
         map: [ "blade" ]
 
 - type: entity
-  name: световой меч с боковыми лезвиями
+  name: lightsaber with side blades
   parent: BaseLightsaber
   id: LightsaberCrossguard
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: Item
     size: Small
@@ -145,10 +136,10 @@
         map: [ "blade" ]
 
 - type: entity
-  name: двухклинковый световой меч
+  name: double-bladed lightsaber
   parent: BaseLightsaber
   id: LightsaberDouble
-  description: Вариант светового меча, особенностью которого являются лезвия, излучаемые с обеих сторон рукояти.
+  description: A lightsaber variant characterized by blades emanating from both sides of the hilt.
   components:
   - type: ItemToggleActiveSound
     activeSound:
@@ -171,44 +162,36 @@
 # Red
 
 - type: entity
-  name: световой меч
-  parent: Lightsaber
+  name: red lightsaber
+  parent: BaseLightsaber
   id: LightsaberRed
-  suffix: Red
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: EnergySword
     colorOptions:
       - Red
 
 - type: entity
-  name: короткий световой меч
   parent: LightsaberShort
   id: LightsaberShortRed
   suffix: Red
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: EnergySword
     colorOptions:
       - Red
 
 - type: entity
-  name: световой меч с боковыми лезвиями
   parent: LightsaberCrossguard
   suffix: Red
   id: LightsaberCrossguardRed
-  description: Особенное оружие, созданное сколь для элегантного боя, сколь и для церемонний, его работа связана с кайбер-кристаллом внутри.
   components:
   - type: EnergySword
     colorOptions:
       - Red
 
 - type: entity
-  name: двухклинковый световой меч
   parent: LightsaberDouble
   suffix: Red
   id: LightsaberDoubleRed
-  description: Вариант светового меча, особенностью которого являются лезвия, излучаемые с обеих сторон рукояти.
   components:
   - type: EnergySword
     colorOptions:
@@ -218,10 +201,8 @@
 
 - type: entity
   name: blue lightsaber
-  parent: Lightsaber
+  parent: BaseLightsaber
   id: STLightsaberBlue
-  suffix: Blue
-  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EnergySword
     colorOptions:
@@ -231,10 +212,8 @@
 
 - type: entity
   name: green lightsaber
-  parent: Lightsaber
+  parent: BaseLightsaber
   id: STLightsaberGreen
-  suffix: Green
-  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EnergySword
     colorOptions:
@@ -244,10 +223,8 @@
 
 - type: entity
   name: yellow lightsaber
-  parent: Lightsaber
+  parent: BaseLightsaber
   id: STLightsaberYellow
-  suffix: Yellow
-  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EnergySword
     colorOptions:
@@ -257,10 +234,8 @@
 
 - type: entity
   name: purple lightsaber
-  parent: Lightsaber
+  parent: BaseLightsaber
   id: STLightsaberPurple
-  suffix: Purple
-  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EnergySword
     colorOptions:
@@ -270,10 +245,8 @@
 
 - type: entity
   name: white lightsaber
-  parent: Lightsaber
+  parent: BaseLightsaber
   id: STLightsaberWhite
-  suffix: White
-  description: A special weapon designed for elegant combat as well as for ceremonies, its work is connected with the kyber crystal inside.
   components:
   - type: EnergySword
     colorOptions:
