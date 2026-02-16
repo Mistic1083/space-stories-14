@@ -1,2 +1,2 @@
-ent-WeaponPistolDesertEagle = Пустынный орёл
+ent-STWeaponPistolDesertEagle = Пустынный орёл
     .desc = Военное оружие используемое ядерными оперативниками, а также некоторыми офицерами Синдиката.

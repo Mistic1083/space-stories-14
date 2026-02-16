@@ -1,12 +1,12 @@
 # Гравированная зажигалка флиппо
 - type: loadout
-  id: StoriesFlippoEngravedLighter
+  id: STFlippoEngravedLighter
   storage:
     back:
-    - StoriesFlippoEngravedLighter
+    - STFlippoEngravedLighter
   effects:
   - !type:SponsorLoadoutEffect
-    id: StoriesFlippoEngravedLighter
+    id: STFlippoEngravedLighter
 
 # Сереб. часы (Стандарт)
 - type: loadout

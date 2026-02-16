@@ -1,8 +1,8 @@
 - type: entity
-  name: Револьвер
+  name: revolver
   parent: BaseWeaponRevolver
-  id: WeaponRevolver
-  description: Многозарядное короткоствольное стрелковое оружие с вращающимся барабаном. Использует патроны калибра .45 магнум.
+  id: STWeaponRevolver
+  description: A multi-shot, short-barreled firearm with a rotating cylinder. It uses .45 magnum cartridges.
   components:
   - type: Sprite
     sprite: _Stories/Objects/Weapons/Guns/Revolvers/revolver.rsi

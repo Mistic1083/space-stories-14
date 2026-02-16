@@ -47,7 +47,7 @@
   id: STUplinkRadioJammerIndustrial
   name: uplink-radio-jammer-idndustrial-name
   description: uplink-radio-jammer-idndustrial-desc
-  productEntity: RadioJammerIndustrial
+  productEntity: STRadioJammerIndustrial
   cost:
     Telecrystal: 6
   categories:

@@ -7,5 +7,5 @@
   components:
   - type: StorageFill
     contents:
-        - id: WeaponRevolver
-        - id: SpeedLoaderMagnum
+    - id: STWeaponRevolver
+    - id: SpeedLoaderMagnum

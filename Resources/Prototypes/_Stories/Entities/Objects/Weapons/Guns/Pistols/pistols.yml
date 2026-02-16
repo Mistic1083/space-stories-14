@@ -1,8 +1,8 @@
 - type: entity
-  name: Пустынный орёл
+  name: Desert Eagle
   parent: BaseWeaponPistol
-  id: WeaponPistolDesertEagle # the spaces in description are for formatting.
-  description: Военное оружие используемое ядерными оперативниками, а также некоторыми офицерами Синдиката.
+  id: STWeaponPistolDesertEagle # the spaces in description are for formatting.
+  description: A military weapon used by nuclear operatives, as well as some Syndicate officers.
   components:
   - type: Sprite
     sprite: _Stories/Objects/Weapons/Guns/Pistols/desert_eagle.rsi
